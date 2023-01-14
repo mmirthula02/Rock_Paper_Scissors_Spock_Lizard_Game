@@ -63,7 +63,7 @@ def rpsls(name):
     print("")
 
 
-player_guess = input('Enter your choice.. Options: rock, Spock, paper, lizard, scissors')
+player_guess = input('Enter your choice.. Options:\nrock(0), Spock(1), paper(2), lizard(3), scissors(4)')
 
 rpsls(str(player_guess))
 
